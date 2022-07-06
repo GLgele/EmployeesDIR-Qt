@@ -1,21 +1,21 @@
-#include <QtCore/QCoreApplication>
-
-#include<cstdio>
-#include "main.h"
-using namespace std;
+#include "employeesdir.h"
+#include <QtWidgets/QApplication>
+#include <QLocale>
+#include <QTranslator>
 
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
-    /*
-    printf("Hello Qt!\n%i %s",argc,argv[1]);
-#ifdef _DEBUG
-    printf("Debug Mode");
-#endif // _DEBUG
-    */
-    if (argc > 1)
-    {
-        filePath = argv[1];
+    QApplication a(argc, argv);
+    QTranslator translator;
+    const QStringList uiLanguages = QLocale::system().uiLanguages();
+    for (const QString& locale : uiLanguages) {
+        const QString baseName = "Hello_World_" + QLocale(locale).name();
+        if (translator.load(":/i18n/" + baseName)) {
+            a.installTranslator(&translator);
+            break;
+        }
     }
+    EmployeesDIR w;
+    w.show();
     return a.exec();
 }

@@ -52,3 +52,6 @@ compile_commands.json
 *creator.user*
 
 *_qmlcache.qrc
+
+#Visual Studio ipch
+.vs/EmployeesDIR/v16/ipch/*
