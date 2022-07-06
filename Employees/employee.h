@@ -18,6 +18,7 @@ class Employee
 		~Employee();
 		vector<string> getInfo();
 		void setInfo(string, string, string, string, string, string, string);
+		bool find(string, string);
 };
 
 #endif // !_EMPLOYEE_H_

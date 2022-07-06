@@ -5,6 +5,7 @@
 #include<string>
 #include<cstdio>
 #include<cstdlib>
+#include<algorithm>
 #include "main.h"
 using namespace std;
 #define _CRT_SECURE_NO_WARNGINGS
@@ -39,6 +40,7 @@ int main(int argc, char* argv[])
 			{
 				vector<string> tmps = employees[i].getInfo();
 				//printf("%s", employees[i].getInfo());
+				printf("ID: %d\n", i);
 				printf("Name: %s\nSex: %s\nNumber: %s\nComment: %s\nEmail: %s\nEdu: %s\nSalary: %s\n", tmps[0].c_str(), tmps[1].c_str(), tmps[2].c_str(), tmps[3].c_str(), tmps[4].c_str(), tmps[5].c_str(), tmps[6].c_str());
 				printf("\n");
 			}
@@ -56,6 +58,31 @@ int main(int argc, char* argv[])
 			int tmp;
 			scanf("%d", &tmp);
 			employees.erase(begin(employees) + tmp - 1);
+			break;
+		}
+		case 4:
+		{
+			bool flag = true;
+			string tmp1,tmp2;
+			/*tmp1.resize(261);
+			tmp2.resize(261);
+			scanf("%s %s", &tmp1[0],&tmp2[0]);*/
+			cin >> tmp1 >> tmp2;
+			for (int i = 1; i < employees.size(); i++)
+			{
+				if (employees[i].find(tmp1,tmp2))
+				{
+					flag = false;
+					vector<string> tmps = employees[i].getInfo();
+					printf("ID: %d\n", i);
+					printf("Name: %s\nSex: %s\nNumber: %s\nComment: %s\nEmail: %s\nEdu: %s\nSalary: %s\n", tmps[0].c_str(), tmps[1].c_str(), tmps[2].c_str(), tmps[3].c_str(), tmps[4].c_str(), tmps[5].c_str(), tmps[6].c_str());
+					printf("\n");
+				}
+			}
+			if (flag)
+			{
+				printf("没有找到含有该信息的员工！\n");
+			}
 			break;
 		}
 		case 5:
