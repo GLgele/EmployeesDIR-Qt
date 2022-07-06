@@ -10,48 +10,65 @@
 using namespace std;
 //using namespace spdlog;
 
-/// <summary> Global Variables
+/// <summary> 
+/// Global Variables
+/// </summary>
 vector<Employee> employees;
 const string title = "EmployeesDIR - 3.0";
 string filePath = "";
-/// </summary>
+
 
 void loadFile(string path)
 {
-	ifstream fin(path);
-	//FILE* fp = NULL;
-	if (/*!((fp = fopen(path.c_str(), "wb+")) == NULL)*/1)
+	//ifstream fin(path);
+	FILE* fp = NULL;
+	if (!((fp = fopen(path.c_str(), "r+")) == NULL))
 	{
+		employees.clear();
+		employees.push_back(Employee("name", "sex", "number", "comment", "email", "edu", "salary"));
 		int n;
-		fin >> n;
+		//fin >> n;
+		fscanf(fp, "%d", &n);
 		for (int i = 0; i < n; i++)
 		{
 			vector<string> tmps;
 			string tmp;
 			for (int j = 0; j < 7; j++)
 			{
-				fin >> tmp;
+				//fin >> tmp;
+				string tmp;
+				tmp.resize(261);
+				fscanf(fp,"%s	", &tmp[0]);
 				tmps.push_back(tmp);
 			}
 			employees.push_back(Employee(tmps));
 		}
-		//fclose(fp);
-		//fp = NULL;
-		fin.close();
+		fclose(fp);
+		fp = NULL;
+		//fin.close();
 	}
 	else
 	{
-
+		printf("Failed to open file!\n");
 	}
 }
 
 void saveFile(string path)
 {
 	FILE* fp = NULL;
-	if (!((fp = fopen(path.c_str(), "wb+")) == NULL))
+	if (!((fp = fopen(path.c_str(), "w+")) == NULL))
 	{
 		int n = employees.size();
+		//Print Title
 		fprintf(fp, "%d\n", n);
+		string tmps[7] = { "name","sex","number","comment","email","edu","salary" };
+		for (int j = 0; j < 7; j++)
+		{
+			string tmp = tmps[j];
+			fprintf(fp, "%s	", tmp.c_str());
+		}
+		fprintf(fp, "\n");
+
 		for (int i = 0; i < employees.size(); i++)
 		{
 			string tmp;
@@ -59,7 +76,7 @@ void saveFile(string path)
 			for (int j = 0; j < 7; j++)
 			{
 				tmp = tmps[j];
-				fprintf(fp, "%s,", tmp.c_str());
+				fprintf(fp, "%s	", tmp.c_str());
 			}
 			fprintf(fp, "\n");
 		}
@@ -68,7 +85,7 @@ void saveFile(string path)
 	}
 	else
 	{
-
+		printf("Failed to open file!\n");
 	}
 }
 

@@ -35,9 +35,12 @@ int main(int argc, char* argv[])
 		{
 		case 1:
 		{
-			for (int i = 0; i < employees.size(); i++)
+			for (int i = 1; i < employees.size(); i++)
 			{
-				printf("%s", employees[i].getInfo());
+				vector<string> tmps = employees[i].getInfo();
+				//printf("%s", employees[i].getInfo());
+				printf("Name: %s\nSex: %s\nNumber: %s\nComment: %s\nEmail: %s\nEdu: %s\nSalary: %s\n", tmps[0].c_str(), tmps[1].c_str(), tmps[2].c_str(), tmps[3].c_str(), tmps[4].c_str(), tmps[5].c_str(), tmps[6].c_str());
+				printf("\n");
 			}
 			break;
 		}
@@ -57,15 +60,17 @@ int main(int argc, char* argv[])
 		}
 		case 5:
 		{
-			string tmp = "";
-			cin >> tmp;
+			string tmp;
+			tmp.resize(261);
+			scanf("%s", &tmp[0]);
 			saveFile(tmp);
 			break;
 		}
 		case 6:
 		{
-			string tmp = "";
-			cin >> tmp;
+			string tmp;
+			tmp.resize(261);
+			scanf("%s", &tmp[0]);
 			loadFile(tmp);
 			break;
 		}
@@ -74,7 +79,7 @@ int main(int argc, char* argv[])
 			employees.clear();
 			break;
 		}
-		case 9:
+		case 9: case 0:
 		{
 			exit(0);
 			return 0;

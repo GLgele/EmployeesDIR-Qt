@@ -1,4 +1,3 @@
 ﻿  Employees.cpp
-d:\Users\Administrator\Documents\GitHub\EmployeesDIR-Qt\Employees\main.h(53,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-d:\Users\Administrator\Documents\GitHub\EmployeesDIR-Qt\Employees\Employees.cpp(40,12): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“std::vector<std::string,std::allocator<std::string>>”
+d:\Users\Administrator\Documents\GitHub\EmployeesDIR-Qt\Employees\main.h(61,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   Employees.vcxproj -> d:\Users\Administrator\Documents\GitHub\EmployeesDIR-Qt\x64\Debug\Employees.exe
