@@ -1,10 +1,10 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-<Qt_DEFINES_>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB</Qt_DEFINES_>
-<Qt_INCLUDEPATH_>D:\Users\Administrator\Documents\GitHub\EmployeesDIR-Qt\EmployeesDIR\x64\Debug\qmake\temp;E:\Qt\5.15.2\msvc2019_64\include;E:\Qt\5.15.2\msvc2019_64\include\QtWidgets;E:\Qt\5.15.2\msvc2019_64\include\QtGui;E:\Qt\5.15.2\msvc2019_64\include\QtANGLE;E:\Qt\5.15.2\msvc2019_64\include\QtCore;D:\Users\Administrator\Documents\GitHub\EmployeesDIR-Qt\EmployeesDIR\x64\Debug\qmake\temp;/include;E:\Qt\5.15.2\msvc2019_64\mkspecs\win32-msvc</Qt_INCLUDEPATH_>
+<Qt_DEFINES_>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_UITOOLS_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB</Qt_DEFINES_>
+<Qt_INCLUDEPATH_>D:\Users\Administrator\Documents\GitHub\EmployeesDIR-Qt\EmployeesDIR\x64\Debug\qmake\temp;E:\Qt\5.15.2\msvc2019_64\include;E:\Qt\5.15.2\msvc2019_64\include\QtUiTools;E:\Qt\5.15.2\msvc2019_64\include\QtWidgets;E:\Qt\5.15.2\msvc2019_64\include\QtGui;E:\Qt\5.15.2\msvc2019_64\include\QtANGLE;E:\Qt\5.15.2\msvc2019_64\include\QtCore;D:\Users\Administrator\Documents\GitHub\EmployeesDIR-Qt\EmployeesDIR\x64\Debug\qmake\temp;/include;E:\Qt\5.15.2\msvc2019_64\mkspecs\win32-msvc</Qt_INCLUDEPATH_>
 <Qt_STDCPP_></Qt_STDCPP_>
 <Qt_CL_OPTIONS_>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus</Qt_CL_OPTIONS_>
-<Qt_LIBS_>E:\Qt\5.15.2\msvc2019_64\lib\Qt5Widgetsd.lib;E:\Qt\5.15.2\msvc2019_64\lib\Qt5Guid.lib;E:\Qt\5.15.2\msvc2019_64\lib\Qt5Cored.lib;E:\Qt\5.15.2\msvc2019_64\lib\qtmaind.lib;shell32.lib</Qt_LIBS_>
+<Qt_LIBS_>E:\Qt\5.15.2\msvc2019_64\lib\Qt5UiToolsd.lib;E:\Qt\5.15.2\msvc2019_64\lib\Qt5Widgetsd.lib;E:\Qt\5.15.2\msvc2019_64\lib\Qt5Guid.lib;E:\Qt\5.15.2\msvc2019_64\lib\Qt5Cored.lib;E:\Qt\5.15.2\msvc2019_64\lib\qtmaind.lib;shell32.lib</Qt_LIBS_>
 <Qt_LINK_OPTIONS_>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'"</Qt_LINK_OPTIONS_>
 <QMake_QT_SYSROOT_></QMake_QT_SYSROOT_>
 <QMake_QT_INSTALL_PREFIX_>E:/Qt/5.15.2/msvc2019_64</QMake_QT_INSTALL_PREFIX_>
@@ -36,7 +36,7 @@
     <QtBkup_QtInstall
       >5.15.2_msvc2019_64</QtBkup_QtInstall>
     <QtBkup_QtModules
-      >core;gui;widgets</QtBkup_QtModules>
+      >core;gui;uitools;widgets</QtBkup_QtModules>
     <QtBkup_QtPathBinaries
       >bin</QtBkup_QtPathBinaries>
     <QtBkup_QtPathLibraryExecutables

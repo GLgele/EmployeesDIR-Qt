@@ -1,1 +1,10 @@
-﻿  EmployeesDIR-Core.vcxproj -> d:\Users\Administrator\Documents\GitHub\EmployeesDIR-Qt\x64\Debug\EmployeesDIR-Core.exe
+﻿main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl Json::Value::Value(enum Json::ValueType)" (??0Value@Json@@QEAA@W4ValueType@1@@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl Json::Value::Value(bool)" (??0Value@Json@@QEAA@_N@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl Json::Value::~Value(void)" (??1Value@Json@@QEAA@XZ)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: class Json::Value & __cdecl Json::Value::operator=(class Json::Value &&)" (??4Value@Json@@QEAAAEAV01@$$QEAV01@@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl Json::CharReaderBuilder::CharReaderBuilder(void)" (??0CharReaderBuilder@Json@@QEAA@XZ)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: virtual __cdecl Json::CharReaderBuilder::~CharReaderBuilder(void)" (??1CharReaderBuilder@Json@@UEAA@XZ)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: class Json::Value & __cdecl Json::CharReaderBuilder::operator[](class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??ACharReaderBuilder@Json@@QEAAAEAVValue@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "bool __cdecl Json::parseFromStream(class Json::CharReader::Factory const &,class std::basic_istream<char,struct std::char_traits<char> > &,class Json::Value *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *)" (?parseFromStream@Json@@YA_NAEBVFactory@CharReader@1@AEAV?$basic_istream@DU?$char_traits@D@std@@@std@@PEAVValue@1@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@5@@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl Json::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class Json::Value const &)" (??6Json@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV12@AEBVValue@0@@Z)，函数 main 中引用了该符号
+d:\Users\Administrator\Documents\GitHub\EmployeesDIR-Qt\x64\Debug\EmployeesDIR-Core.exe : fatal error LNK1120: 9 个无法解析的外部命令

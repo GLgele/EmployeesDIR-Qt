@@ -47,5 +47,8 @@
     <QtTranslation Include="EmployeesDIR_zh_CN.ts">
       <Filter>Translation Files</Filter>
     </QtTranslation>
+    <QtTranslation Include="EmployeesDIR_en.ts">
+      <Filter>Translation Files</Filter>
+    </QtTranslation>
   </ItemGroup>
 </Project>

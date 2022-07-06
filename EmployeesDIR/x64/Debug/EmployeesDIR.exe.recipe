@@ -2,6 +2,9 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+      <FullPath>d:\Users\Administrator\Documents\GitHub\EmployeesDIR-Qt\x64\Debug\Employees.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>d:\Users\Administrator\Documents\GitHub\EmployeesDIR-Qt\x64\Debug\EmployeesDIR.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>

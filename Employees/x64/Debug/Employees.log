@@ -1,2 +1,3 @@
-﻿  employee.cpp
+﻿  Employees.cpp
+d:\Users\Administrator\Documents\GitHub\EmployeesDIR-Qt\Employees\main.h(61,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   Employees.vcxproj -> d:\Users\Administrator\Documents\GitHub\EmployeesDIR-Qt\x64\Debug\Employees.exe
