@@ -10,6 +10,11 @@ Employee::Employee(/*int id, */string name, string sex, string number, string co
 	setInfo(name, sex, number, comment, email, edu, salary);
 }
 
+Employee::Employee(vector<string> src)
+{
+	setInfo(src[0],src[1],src[2],src[3],src[4],src[5],src[6]);
+}
+
 Employee::~Employee()
 {
 }

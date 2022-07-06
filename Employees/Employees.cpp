@@ -18,7 +18,6 @@ int main(int argc, char* argv[])
 		loadFile(filePath);
 	}
 	int choice;
-	string name, number, comment, email, sex, salary, edu;
 	while (1)
 	{
 		printf("========== 员工目录管理系统 3.0 ==========\n");
@@ -31,28 +30,60 @@ int main(int argc, char* argv[])
 		printf(" 7. 修改员工信息\n");
 		printf(" 8. 删除所有员工\n");
 		printf(" 9. 退出系统\n");
-		cin >> choice;
+		scanf("%d", &choice);
 		switch (choice)
 		{
 		case 1:
+		{
 			for (int i = 0; i < employees.size(); i++)
 			{
 				printf("%s", employees[i].getInfo());
 			}
 			break;
+		}
 		case 2:
-
+		{
+			string name, number, comment, email, sex, salary, edu;
 			cin >> name >> sex >> number >> comment >> email >> edu >> salary;
 			employees.push_back(Employee(name, sex, number, comment, email, edu, salary));
 			break;
+		}
 		case 3:
+		{
 			int tmp;
 			scanf("%d", &tmp);
 			employees.erase(begin(employees) + tmp - 1);
 			break;
+		}
+		case 5:
+		{
+			string tmp = "";
+			cin >> tmp;
+			saveFile(tmp);
+			break;
+		}
+		case 6:
+		{
+			string tmp = "";
+			cin >> tmp;
+			loadFile(tmp);
+			break;
+		}
+		case 8:
+		{
+			employees.clear();
+			break;
+		}
+		case 9:
+		{
+			exit(0);
+			return 0;
+		}
 		default:
+		{
 			printf("Unknown input.\n");
 			break;
+		}
 		}
 		system("pause");
 		system("cls");

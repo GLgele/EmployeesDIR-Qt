@@ -14,6 +14,7 @@ class Employee
 	public:
 		Employee();
 		Employee(string,string,string,string,string,string,string);
+		Employee(vector<string>);
 		~Employee();
 		vector<string> getInfo();
 		void setInfo(string, string, string, string, string, string, string);
