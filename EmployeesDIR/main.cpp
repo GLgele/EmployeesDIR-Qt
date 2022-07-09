@@ -38,5 +38,6 @@ int main(int argc, char *argv[])
     }
     std::cout << root << std::endl;
     return EXIT_SUCCESS;*/
+    printf("Hello Qt!\n");
     return a.exec();
 }
