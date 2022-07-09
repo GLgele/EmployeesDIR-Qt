@@ -1,8 +1,0 @@
-﻿  lupdate EmployeesDIR_zh_CN.ts
-  Updating 'EmployeesDIR_zh_CN.ts'...
-      Found 1 source text(s) (0 new and 1 already existing)
-  lrelease EmployeesDIR_zh_CN.ts
-  Updating 'd:\Users\Administrator\Documents\GitHub\EmployeesDIR-Qt\x64\Debug\EmployeesDIR_zh_CN.qm'...
-      Generated 1 translation(s) (0 finished and 1 unfinished)
-  main.cpp
-  EmployeesDIR.vcxproj -> d:\Users\Administrator\Documents\GitHub\EmployeesDIR-Qt\x64\Debug\EmployeesDIR.exe

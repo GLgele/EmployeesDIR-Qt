@@ -1,5 +1,0 @@
-employeesdir.cpp
-main.cpp
-employeesdir.h
-employeesdir.ui
-employeesdir.qrc
