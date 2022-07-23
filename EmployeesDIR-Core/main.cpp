@@ -1,11 +1,13 @@
-/*#include <QtCore/QCoreApplication>
+//#include <QtCore/QCoreApplication>
+
+#include "EmployeesDLL/pch.h"
 
 #include<cstdio>
 #include<iostream>
-#include "main.h"*/
-//using namespace std;
+#include "main.h"
+using namespace std;
 //using namespace spdlog;
-/*
+
 int main(int argc, char *argv[])
 {
     //QCoreApplication a(argc, argv);
@@ -20,7 +22,7 @@ int main(int argc, char *argv[])
 #else
     //set_level(level::info);
 #endif // _DEBUG
-/*
+
     if (argc > 1)
     {
         filePath = argv[1];
@@ -67,8 +69,7 @@ int main(int argc, char *argv[])
     
     //return a.exec();
 }
-*/
-
+/*
 #include "json/json.h"
 #include <fstream>
 #include <iostream>
@@ -83,7 +84,7 @@ int main(int argc, char *argv[])
  * }
  * // comment after
  * // comment tail
- */
+ *//*
     int main(int argc, char* argv[]) {
     Json::Value root;
     std::ifstream ifs;
@@ -99,3 +100,4 @@ int main(int argc, char *argv[])
     std::cout << root << std::endl;
     return EXIT_SUCCESS;
 }
+*/

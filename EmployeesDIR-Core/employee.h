@@ -1,6 +1,8 @@
 #ifndef _EMPLOYEE_H_
 #define _EMPLOYEE_H_
 
+#include "EmployeesDLL/pch.h"
+
 #include<string>
 #include<vector>
 //#include<spdlog/spdlog.h>

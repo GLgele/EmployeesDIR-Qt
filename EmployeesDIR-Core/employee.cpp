@@ -1,4 +1,5 @@
 #include "employee.h"
+#include "EmployeesDLL/pch.h"
 
 Employee::Employee()
 {
