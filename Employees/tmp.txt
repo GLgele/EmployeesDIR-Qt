@@ -1,3 +1,0 @@
-1
-name	sex	number	comment	email	edu	salary	
-name	sex	number	comment	email	edu	salary	
