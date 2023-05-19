@@ -1,0 +1,11 @@
+# ninja log v5
+2719	6568	7045630353627525	CMakeFiles/EmployeesDIR.dir/mainwindow.cpp.obj	ebf2c71dcbd12e0a
+14	2595	7045630307343549	EmployeesDIR_autogen/timestamp	b9bdd015a1ec5017
+14	2595	7045630307343549	EmployeesDIR_autogen/mocs_compilation.cpp	b9bdd015a1ec5017
+14	2595	7045630307343549	F:/GitHub/EmployeesDIR-Qt/build-EmployeesDIR-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/EmployeesDIR_autogen/timestamp	b9bdd015a1ec5017
+14	2595	7045630307343549	F:/GitHub/EmployeesDIR-Qt/build-EmployeesDIR-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/EmployeesDIR_autogen/mocs_compilation.cpp	b9bdd015a1ec5017
+2677	6178	7045630349698347	CMakeFiles/EmployeesDIR.dir/EmployeesDIR_autogen/mocs_compilation.cpp.obj	95f0ef4ffd926735
+2595	2676	7045630283407142	CMakeFiles/EmployeesDIR_zh_CN.ts_lst_file	8671363754d9a299
+2595	2676	7045630283407142	F:/GitHub/EmployeesDIR-Qt/build-EmployeesDIR-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/EmployeesDIR_zh_CN.ts_lst_file	8671363754d9a299
+2698	6578	7045630353706998	CMakeFiles/EmployeesDIR.dir/main.cpp.obj	c269d435f6a0b3c9
+6578	6997	7045630357865891	EmployeesDIR.exe	7ac7e8b34937fbc4

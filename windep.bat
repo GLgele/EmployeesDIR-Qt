@@ -1,0 +1,2 @@
+copy /Y build-EmployeesDIR-Desktop_Qt_5_15_2_MinGW_64_bit-Release\EmployeesDIR.exe WinReleaseBins\EmployeesDIR.exe
+windeployqt WinReleaseBins/EmployeesDIR.exe
