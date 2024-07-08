@@ -237,7 +237,7 @@ EmployeesDIR_BINARY_DIR:STATIC=F:/GitHub/EmployeesDIR-Qt/build-EmployeesDIR-Desk
 EmployeesDIR_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-EmployeesDIR_SOURCE_DIR:STATIC=D:/Users/Administrator/Documents/Github/EmployeesDIR-Qt/EmployeesDIR
+EmployeesDIR_SOURCE_DIR:STATIC=F:/GitHub/EmployeesDIR-Qt/EmployeesDIR
 
 //Skip Qt Creator's package manager auto-setup
 QT_CREATOR_SKIP_PACKAGE_MANAGER_SETUP:BOOL=OFF

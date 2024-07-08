@@ -262,6 +262,6 @@ F:/GitHub/EmployeesDIR-Qt/EmployeesDIR/mainwindow.h
  mdp:E:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:E:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h
  mdp:E:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h
-F:/GitHub/EmployeesDIR-Qt/EmployeesDIR/main.cpp
 F:/GitHub/EmployeesDIR-Qt/EmployeesDIR/mainwindow.cpp
  uic:./ui_mainwindow.h
+F:/GitHub/EmployeesDIR-Qt/EmployeesDIR/main.cpp

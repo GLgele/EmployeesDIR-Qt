@@ -47,7 +47,7 @@ cmake_ninja_workdir = F$:/GitHub/EmployeesDIR-Qt/build-EmployeesDIR-Desktop_Qt_5
 #############################################
 # Order-only phony target for EmployeesDIR
 
-build cmake_object_order_depends_target_EmployeesDIR: phony || CMakeFiles/EmployeesDIR_zh_CN.ts_lst_file EmployeesDIR_autogen EmployeesDIR_autogen/mocs_compilation.cpp EmployeesDIR_autogen/timestamp EmployeesDIR_autogen_timestamp_deps F$:/GitHub/EmployeesDIR-Qt/EmployeesDIR/EmployeesDIR_zh_cn.ts
+build cmake_object_order_depends_target_EmployeesDIR: phony || EmployeesDIR_autogen EmployeesDIR_autogen/mocs_compilation.cpp EmployeesDIR_autogen/timestamp EmployeesDIR_autogen_timestamp_deps
 
 build CMakeFiles/EmployeesDIR.dir/EmployeesDIR_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__EmployeesDIR_Debug F$:/GitHub/EmployeesDIR-Qt/build-EmployeesDIR-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/EmployeesDIR_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_EmployeesDIR
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
@@ -130,15 +130,6 @@ build EmployeesDIR_autogen: phony CMakeFiles/EmployeesDIR_autogen EmployeesDIR_a
 
 
 #############################################
-# Custom command for F:\GitHub\EmployeesDIR-Qt\EmployeesDIR\EmployeesDIR_zh_cn.ts
-
-build F$:/GitHub/EmployeesDIR-Qt/EmployeesDIR/EmployeesDIR_zh_cn.ts CMakeFiles/EmployeesDIR_zh_CN.ts_lst_file | ${cmake_ninja_workdir}CMakeFiles/EmployeesDIR_zh_CN.ts_lst_file: CUSTOM_COMMAND F$:/GitHub/EmployeesDIR-Qt/EmployeesDIR || EmployeesDIR_autogen EmployeesDIR_autogen_timestamp_deps
-  COMMAND = cmd.exe /C "cd /D F:\GitHub\EmployeesDIR-Qt\build-EmployeesDIR-Desktop_Qt_5_15_2_MinGW_64_bit-Debug && E:\Qt\5.15.2\mingw81_64\bin\lupdate.exe @F:/GitHub/EmployeesDIR-Qt/build-EmployeesDIR-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/EmployeesDIR_zh_cn.ts_lst_file -ts F:/GitHub/EmployeesDIR-Qt/EmployeesDIR/EmployeesDIR_zh_cn.ts"
-  DESC = Generating F:/GitHub/EmployeesDIR-Qt/EmployeesDIR/EmployeesDIR_zh_cn.ts
-  restat = 1
-
-
-#############################################
 # Custom command for EmployeesDIR_autogen\timestamp
 
 build EmployeesDIR_autogen/timestamp EmployeesDIR_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}EmployeesDIR_autogen/timestamp ${cmake_ninja_workdir}EmployeesDIR_autogen/mocs_compilation.cpp: CUSTOM_COMMAND E$:/Qt/5.15.2/mingw81_64/bin/moc.exe E$:/Qt/5.15.2/mingw81_64/bin/uic.exe || EmployeesDIR_autogen_timestamp_deps
@@ -151,7 +142,7 @@ build EmployeesDIR_autogen/timestamp EmployeesDIR_autogen/mocs_compilation.cpp |
 #############################################
 # Phony custom command for CMakeFiles\EmployeesDIR_autogen_timestamp_deps
 
-build CMakeFiles/EmployeesDIR_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/EmployeesDIR_autogen_timestamp_deps: phony E$:/Qt/5.15.2/mingw81_64/bin/moc.exe E$:/Qt/5.15.2/mingw81_64/lib/libQt5Widgets.a E$:/Qt/5.15.2/mingw81_64/bin/uic.exe
+build CMakeFiles/EmployeesDIR_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/EmployeesDIR_autogen_timestamp_deps: phony E$:/Qt/5.15.2/mingw81_64/bin/moc.exe E$:/Qt/5.15.2/mingw81_64/bin/uic.exe E$:/Qt/5.15.2/mingw81_64/lib/libQt5Widgets.a
 
 
 #############################################
