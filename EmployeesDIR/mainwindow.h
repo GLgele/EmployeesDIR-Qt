@@ -4,7 +4,9 @@
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
-namespace Ui { class MainWindow; }
+namespace Ui {
+class MainWindow;
+}
 QT_END_NAMESPACE
 
 class MainWindow : public QMainWindow
@@ -16,7 +18,7 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_actionExit_triggered();
+    void on_actionQuit_triggered();
 
 private:
     Ui::MainWindow *ui;

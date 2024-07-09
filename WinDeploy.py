@@ -13,7 +13,7 @@ print('''
 Input 'yes' or 'y' to deploy & pack the program.
 Input 'back' or 'b' to minus the revision number.
 Input 'read' or 'r' to see the current version number.
-Input 'set' to set the version directly.
+Input 'set' or 's' to set the version directly.
 ''')
 c = input()
 if c == "y" or c== "yes":
@@ -43,7 +43,7 @@ elif c=="r" or c == "read":
     openFile()
     ver = "{}.{}.{}.{}".format(lstv[0],lstv[1],lstv[2],lstv[3])
     print(ver)
-elif c == "set":
+elif c == "set" or c=="s":
     ver=input()
     with open('curVersion.txt','w') as f:
         f.write(ver)

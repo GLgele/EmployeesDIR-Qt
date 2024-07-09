@@ -13,9 +13,8 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-
-void MainWindow::on_actionExit_triggered()
+void MainWindow::on_actionQuit_triggered()
 {
-    this->close();
+    QApplication::quit();
 }
 
